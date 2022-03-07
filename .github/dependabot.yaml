@@ -8,6 +8,15 @@ updates:
     commit-message:
       prefix: "patch"
       include: "scope"
+      
+  - package-ecosystem: "nuget"
+    directory: "/CurrentTimeApp"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 10
+    commit-message:
+      prefix: "patch"
+      include: "scope"
 
   - package-ecosystem: "github-actions"
     directory: "/"
