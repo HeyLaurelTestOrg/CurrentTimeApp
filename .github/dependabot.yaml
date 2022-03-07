@@ -5,10 +5,6 @@ updates:
     schedule:
       interval: "daily"
     open-pull-requests-limit: 10
-    assignees:
-      - "jjliggett"
-    reviewers:
-      - "jjliggett"
     commit-message:
       prefix: "patch"
       include: "scope"
@@ -18,10 +14,6 @@ updates:
     schedule:
       interval: "daily"
     open-pull-requests-limit: 10
-    assignees:
-      - "jjliggett"
-    reviewers:
-      - "jjliggett"
     commit-message:
       prefix: "ci"
       include: "scope"
