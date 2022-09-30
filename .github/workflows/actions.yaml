@@ -32,7 +32,7 @@ jobs:
           echo "Sha: ${{ steps.jjversion.outputs.sha }}"
           echo "ShortSha: ${{ steps.jjversion.outputs.shortSha }}"
       - name: Setup .NET
-        uses: actions/setup-dotnet@9211491ffb35dd6a6657ca4f45d43dfe6e97c829
+        uses: actions/setup-dotnet@c7e7147fd3e41056e75a761416c06f5fa781b5fb
         with:
           dotnet-version: 6.0.x
       - name: Restore dependencies
